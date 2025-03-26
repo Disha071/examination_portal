@@ -14,8 +14,7 @@ const App = () => {
   useEffect(() => {
     const token = localStorage.getItem('token'); // Check for token in localStorage
 
-    // Validate the token with your authentication mechanism
-    // For simplicity, assume checking the presence of token is sufficient
+   
     if (token) {
       setIsLoggedIn(true);
     } else {
